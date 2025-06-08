@@ -49,7 +49,7 @@ class Program
 
         if (choice.ToLower() == "chicken")
         {
-            CSandwich c1 = new CSandwich("Chicken", "sauce mayo tomato", "ketchup", "Chicken pattie");
+            CSandwich c1 = new CSandwich("Chicken", "sauce mayo tomato", "ketchup", " , chicken pattie");
             c1.YourOrder();
         }
         else if (choice.ToLower() == "veg")
